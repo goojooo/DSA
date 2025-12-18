@@ -1,4 +1,4 @@
-import java.utils.*;
+
 
 public class intro{
     public static void main(String[] args) {
@@ -10,9 +10,10 @@ public class intro{
 
         //set
         arr[2] = 30;
+        System.out.println(arr[2]);
 
         //length
-        sout arr.length;
+        System.out.println(arr.length); 
 
         //traverse
         for(int i = 0 ; i<arr.length; i++)
